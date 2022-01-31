@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="Pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Main">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0">
+         <image>
+            <Image url="@../../../../../../../Users/17T2033E/Desktop/三年後期/デザプロ1/image.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="160.0" fitWidth="93.0" layoutX="399.0" layoutY="230.0">
+         <image>
+            <Image url="@../../../../../../../Users/17T2033E/Desktop/三年後期/デザプロ1/tree_seichou07.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="ab" layoutX="34.0" layoutY="29.0" mnemonicParsing="false" onAction="#startbutton" prefHeight="35.0" prefWidth="67.0" text="Start" />
+      <Button layoutX="34.0" layoutY="94.0" mnemonicParsing="false" onAction="#resetbutton" prefHeight="35.0" prefWidth="67.0" text="Stop" />
+      <ImageView fx:id="car2" fitHeight="79.0" fitWidth="82.0" layoutX="248.0" layoutY="2.0">
+         <image>
+            <Image url="@../../../../../../../Users/17T2033E/Desktop/三年後期/デザプロ1/car2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="153.0" fitWidth="93.0" layoutX="93.0" layoutY="240.0">
+         <image>
+            <Image url="@../../../../../../../Users/17T2033E/Desktop/三年後期/デザプロ1/新しいフォルダー/th.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="car1" fitHeight="79.0" fitWidth="93.0" layoutX="8.0" layoutY="161.0">
+         <image>
+            <Image url="@../../../../../../../Users/17T2033E/Desktop/三年後期/デザプロ1/car2%20-%20コピー.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="374.0" layoutY="16.0" mnemonicParsing="false" onAction="#Xplus" text="X-speed +" />
+      <Button layoutX="445.0" layoutY="16.0" mnemonicParsing="false" onAction="#Xminus" prefHeight="25.0" prefWidth="71.0" text="X-speed -" />
+      <Button layoutX="374.0" layoutY="64.0" mnemonicParsing="false" onAction="#Yplus" prefHeight="25.0" prefWidth="71.0" text="Y-speed +" />
+      <Button layoutX="445.0" layoutY="64.0" mnemonicParsing="false" onAction="#Yminus" prefHeight="25.0" prefWidth="71.0" text="Y-speed -" />
+   </children>
+</AnchorPane>
